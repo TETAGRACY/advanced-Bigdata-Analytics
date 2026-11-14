@@ -1,0 +1,10 @@
+run_at=2026-11-09T20:37:16
+source=mongo-spark-connector 10.4
+retention_r=0.7245
+multiplier=2.0925
+total_clv_3y=10844114.94
+corr_clv_sessions=0.3772
+corr_clv_avg_session_min=0.1351
+corr_clv_session_conv_rate=0.4222
+corr_clv_abandoned_carts=0.2720
+corr_clv_frequency=0.7086

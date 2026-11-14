@@ -1,0 +1,5 @@
+buyer_segment,users,avg_sessions,avg_session_min,avg_spent,revenue_per_session
+0 orders,2147,11.8,14.5,0.0,0.0
+1 order,2327,13.6,15.2,107.2,7.87
+2-3 orders,2836,17.2,15.9,285.26,16.54
+4+ orders,2690,35.0,16.6,1127.14,32.24

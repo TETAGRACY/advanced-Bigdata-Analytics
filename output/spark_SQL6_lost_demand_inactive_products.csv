@@ -1,0 +1,4 @@
+status,products,view_sessions,actual_orders,expected_orders_if_buyable,est_lost_revenue
+active,4581,707053,55077,54389.0,-56149.45
+inactive - HAS stock (catalogue error?),144,21607,185,1662.0,87733.86
+inactive - out of stock,275,39884,329,3068.0,150423.8

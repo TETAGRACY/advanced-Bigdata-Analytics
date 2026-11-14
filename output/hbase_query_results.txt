@@ -1,0 +1,50 @@
+
+=== Q1 all sessions of user_000089 (prefix scan, CF 's' only)  [15.3 ms, 22 rows]
+  user_000089#8256483641#sess_c603910448        2025-04-01T14:05:58  desktop  direct         converted  pv=6 cart=$39.48
+  user_000089#8256879168#sess_7a5dbaa898        2025-03-28T00:13:51  mobile   search_engine  browsed    pv=3 cart=$0
+  user_000089#8256973292#sess_0c1bfc927e        2025-03-26T22:05:07  mobile   search_engine  browsed    pv=2 cart=$0
+  user_000089#8257011250#sess_6c024da084        2025-03-26T11:32:29  mobile   email          converted  pv=9 cart=$46.87
+  user_000089#8257229911#sess_b0b9d9f4f4        2025-03-23T22:48:08  mobile   social_media   abandoned  pv=5 cart=$9.2
+  user_000089#8257788885#sess_b83dc12a4a        2025-03-17T11:31:54  desktop  search_engine  converted  pv=12 cart=$22.17
+  user_000089#8258275134#sess_2ebef8a347        2025-03-11T20:27:45  desktop  direct         converted  pv=5 cart=$6.64
+  user_000089#8258628482#sess_31510f1faf        2025-03-07T18:18:37  mobile   social_media   browsed    pv=2 cart=$0
+  user_000089#8258957677#sess_08c0e69ecd        2025-03-03T22:52:02  desktop  paid_ads       browsed    pv=5 cart=$0
+  user_000089#8259025452#sess_1d8f4dbcd6        2025-03-03T04:02:27  desktop  social_media   converted  pv=5 cart=$38.91
+  ... 12 more
+  -> 22 sessions, 8 converted (36.4%)
+
+=== Q2 last 3 sessions of user_000089 (prefix scan + limit=3; reverse ts => newest first)  [5.9 ms, 3 rows]
+  user_000089#8256483641#sess_c603910448 2025-04-01T14:05:58
+  user_000089#8256879168#sess_7a5dbaa898 2025-03-28T00:13:51
+  user_000089#8256973292#sess_0c1bfc927e 2025-03-26T22:05:07
+
+=== Q3 user_000089 sessions during March 2025 (range scan user_000089#8256534399 .. user_000089#8259212799)  [5.7 ms, 10 rows]
+  2025-03-28T00:13:51 browsed
+  2025-03-26T22:05:07 browsed
+  2025-03-26T11:32:29 converted
+  2025-03-23T22:48:08 abandoned
+  2025-03-17T11:31:54 converted
+  2025-03-11T20:27:45 converted
+  2025-03-07T18:18:37 browsed
+  2025-03-03T22:52:02 browsed
+  2025-03-03T04:02:27 converted
+  2025-03-02T10:37:36 browsed
+
+=== Q4 replay journey of user_000089#8256483641#sess_c603910448 (GET, CF 'pv' + 'c')  [6.9 ms, 7 rows]
+  c:prod_02490       1|39.48
+  pv:000             2025-04-01T14:05:58|home|||119
+  pv:001             2025-04-01T14:08:13|category_listing||cat_014|231
+  pv:002             2025-04-01T14:12:17|product_detail|prod_04922|cat_007|6
+  pv:003             2025-04-01T14:12:38|product_detail|prod_02490|cat_014|58
+  pv:004             2025-04-01T14:13:39|cart|||12
+  pv:005             2025-04-01T14:13:54|checkout|||165
+
+=== Q5 prod_04434 daily metrics (range scan prod_04434#20250101..prod_04434#20250501)  [12.7 ms, 91 rows]
+  prod_04434#20250116  views=68 carts=9 purchases=4 revenue=784.26
+  prod_04434#20250117  views=54 carts=5 purchases=4 revenue=609.98
+  prod_04434#20250118  views=58 carts=11 purchases=4 revenue=522.84
+  prod_04434#20250119  views=74 carts=11 purchases=4 revenue=348.56
+  prod_04434#20250120  views=62 carts=13 purchases=5 revenue=435.7
+  prod_04434#20250121  views=66 carts=8 purchases=2 revenue=174.28
+  prod_04434#20250122  views=57 carts=10 purchases=7 revenue=784.26
+  -> 91 active days, views=8106, cart adds=1283, purchases=647, revenue=$75,288.96; view->cart 15.8%, view->purchase 8.0%

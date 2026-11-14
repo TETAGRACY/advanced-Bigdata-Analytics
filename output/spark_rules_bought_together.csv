@@ -1,0 +1,201 @@
+x,x_name,y,y_name,pair_count,x_count,support,confidence,lift,same_subcategory
+prod_01555,Open-Source Multimedia Adapter,prod_02162,Reverse-Engineered Radical Knowledgebase,5,20,0.000164,0.25,19.59,True
+prod_01774,Triple-Buffered Intangible Service-Desk,prod_04394,Open-Source Bottom-Line Matrix,5,21,0.000164,0.2381,268.84,True
+prod_04267,Stand-Alone Static Migration,prod_04434,Sharable Coherent Emulation,5,21,0.000164,0.2381,11.22,True
+prod_00246,Managed Fresh-Thinking Secured Line,prod_02250,Diverse Asymmetric Moderator,5,22,0.000164,0.2273,266.49,True
+prod_04394,Open-Source Bottom-Line Matrix,prod_00716,Synergized Impactful Framework,6,27,0.000197,0.2222,225.82,True
+prod_04985,Virtual 24/7 Policy,prod_02162,Reverse-Engineered Radical Knowledgebase,5,24,0.000164,0.2083,16.33,True
+prod_04685,Function-Based Well-Modulated Intranet,prod_02180,Optional Hybrid Encryption,4,20,0.000131,0.2,338.73,True
+prod_00775,Progressive Responsive Success,prod_01497,Extended Content-Based Capacity,4,20,0.000131,0.2,304.86,True
+prod_01497,Extended Content-Based Capacity,prod_00775,Progressive Responsive Success,4,20,0.000131,0.2,304.86,True
+prod_00716,Synergized Impactful Framework,prod_04394,Open-Source Bottom-Line Matrix,6,30,0.000197,0.2,225.82,True
+prod_02565,Innovative Context-Sensitive Budgetary Management,prod_04394,Open-Source Bottom-Line Matrix,4,20,0.000131,0.2,225.82,True
+prod_00568,Phased Content-Based Hub,prod_01112,Synergistic Composite Support,6,31,0.000197,0.1935,27.32,True
+prod_02250,Diverse Asymmetric Moderator,prod_00246,Managed Fresh-Thinking Secured Line,5,26,0.000164,0.1923,266.49,True
+prod_01774,Triple-Buffered Intangible Service-Desk,prod_02715,Seamless Even-Keeled Focus Group,4,21,0.000131,0.1905,483.9,True
+prod_04718,Business-Focused Didactic Adapter,prod_00543,Configurable Fault-Tolerant Open Architecture,4,21,0.000131,0.1905,215.07,True
+prod_01774,Triple-Buffered Intangible Service-Desk,prod_00716,Synergized Impactful Framework,4,21,0.000131,0.1905,193.56,True
+prod_04718,Business-Focused Didactic Adapter,prod_00590,Triple-Buffered Methodical Knowledge User,4,21,0.000131,0.1905,22.42,True
+prod_04394,Open-Source Bottom-Line Matrix,prod_01774,Triple-Buffered Intangible Service-Desk,5,27,0.000164,0.1852,268.84,True
+prod_01388,Inverse Human-Resource Flexibility,prod_00369,Customizable Bandwidth-Monitored Encoding,5,27,0.000164,0.1852,88.21,True
+prod_04394,Open-Source Bottom-Line Matrix,prod_02357,Monitored Radical Projection,5,27,0.000164,0.1852,72.38,True
+prod_00674,Cloned Neutral Moratorium,prod_00381,Stand-Alone Heuristic Approach,4,22,0.000131,0.1818,307.94,True
+prod_04291,Profit-Focused Exuding Hierarchy,prod_03522,Persevering Web-Enabled Budgetary Management,4,22,0.000131,0.1818,93.95,True
+prod_04174,Ergonomic Transitional Circuit,prod_01112,Synergistic Composite Support,4,22,0.000131,0.1818,25.66,True
+prod_01344,Distributed Bi-Directional Concept,prod_04507,Reactive Empowering Success,4,23,0.000131,0.1739,80.33,True
+prod_00851,Streamlined High-Level Solution,prod_02162,Reverse-Engineered Radical Knowledgebase,5,29,0.000164,0.1724,13.51,True
+prod_02134,Open-Architected Asynchronous Artificial Intelligence,prod_02756,Monitored Directional Success,4,24,0.000131,0.1667,267.42,True
+prod_01486,Quality-Focused Incremental System Engine,prod_02162,Reverse-Engineered Radical Knowledgebase,6,37,0.000197,0.1622,12.71,True
+prod_00582,Operative Actuating Infrastructure,prod_03976,Multi-Tiered Global Synergy,4,25,0.000131,0.16,195.11,True
+prod_03976,Multi-Tiered Global Synergy,prod_00582,Operative Actuating Infrastructure,4,25,0.000131,0.16,195.11,True
+prod_01868,Digitized Exuding Service-Desk,prod_02075,Fully-Configurable Regional Help-Desk,4,25,0.000131,0.16,139.36,True
+prod_00582,Operative Actuating Infrastructure,prod_02162,Reverse-Engineered Radical Knowledgebase,4,25,0.000131,0.16,12.54,True
+prod_00783,Vision-Oriented Reciprocal Leverage,prod_00381,Stand-Alone Heuristic Approach,4,26,0.000131,0.1538,260.56,True
+prod_00480,Multi-Channeled Asynchronous Infrastructure,prod_02715,Seamless Even-Keeled Focus Group,3,20,9.8e-05,0.15,381.08,True
+prod_00957,Intuitive Incremental Analyzer,prod_01510,Reduced Well-Modulated Attitude,3,20,9.8e-05,0.15,326.64,True
+prod_01567,Profound Stable Hub,prod_01245,Horizontal Zero-Defect Solution,3,20,9.8e-05,0.15,304.86,True
+prod_00957,Intuitive Incremental Analyzer,prod_02531,Decentralized User-Facing Database,3,20,9.8e-05,0.15,285.81,True
+prod_02565,Innovative Context-Sensitive Budgetary Management,prod_01214,Streamlined Composite Application,3,20,9.8e-05,0.15,285.81,True
+prod_00775,Progressive Responsive Success,prod_02814,Cloned Needs-Based Project,3,20,9.8e-05,0.15,268.99,True
+prod_00480,Multi-Channeled Asynchronous Infrastructure,prod_02780,Visionary Intermediate Data-Warehouse,3,20,9.8e-05,0.15,228.64,True
+prod_02780,Visionary Intermediate Data-Warehouse,prod_00480,Multi-Channeled Asynchronous Infrastructure,3,20,9.8e-05,0.15,228.64,True
+prod_00480,Multi-Channeled Asynchronous Infrastructure,prod_01774,Triple-Buffered Intangible Service-Desk,3,20,9.8e-05,0.15,217.76,True
+prod_02565,Innovative Context-Sensitive Budgetary Management,prod_01774,Triple-Buffered Intangible Service-Desk,3,20,9.8e-05,0.15,217.76,True
+prod_00480,Multi-Channeled Asynchronous Infrastructure,prod_04394,Open-Source Bottom-Line Matrix,3,20,9.8e-05,0.15,169.37,True
+prod_02565,Innovative Context-Sensitive Budgetary Management,prod_00716,Synergized Impactful Framework,3,20,9.8e-05,0.15,152.43,True
+prod_02780,Visionary Intermediate Data-Warehouse,prod_02654,Re-Contextualized Systematic Framework,3,20,9.8e-05,0.15,91.46,True
+prod_00775,Progressive Responsive Success,prod_00369,Customizable Bandwidth-Monitored Encoding,3,20,9.8e-05,0.15,71.45,True
+prod_01497,Extended Content-Based Capacity,prod_00369,Customizable Bandwidth-Monitored Encoding,3,20,9.8e-05,0.15,71.45,True
+prod_02565,Innovative Context-Sensitive Budgetary Management,prod_02357,Monitored Radical Projection,3,20,9.8e-05,0.15,58.63,True
+prod_04336,Networked Contextually-Based Hardware,prod_00590,Triple-Buffered Methodical Knowledge User,3,20,9.8e-05,0.15,17.66,True
+prod_01912,Reactive Empowering Moratorium,prod_02162,Reverse-Engineered Radical Knowledgebase,3,20,9.8e-05,0.15,11.76,False
+prod_04394,Open-Source Bottom-Line Matrix,prod_02565,Innovative Context-Sensitive Budgetary Management,4,27,0.000131,0.1481,225.82,True
+prod_00543,Configurable Fault-Tolerant Open Architecture,prod_04718,Business-Focused Didactic Adapter,4,27,0.000131,0.1481,215.07,True
+prod_00358,Multi-Layered Systematic Synergy,prod_04434,Sharable Coherent Emulation,4,27,0.000131,0.1481,6.98,False
+prod_03333,Future-Proofed Executive Synergy,prod_04668,Visionary Global Knowledge User,3,21,9.8e-05,0.1429,335.01,True
+prod_01649,Expanded System-Worthy Software,prod_03773,Organized Optimal Capability,3,21,9.8e-05,0.1429,256.18,True
+prod_01774,Triple-Buffered Intangible Service-Desk,prod_00480,Multi-Channeled Asynchronous Infrastructure,3,21,9.8e-05,0.1429,217.76,True
+prod_01774,Triple-Buffered Intangible Service-Desk,prod_02565,Innovative Context-Sensitive Budgetary Management,3,21,9.8e-05,0.1429,217.76,True
+prod_00161,Synchronized Homogeneous Graphical User Interface,prod_00945,Ergonomic User-Facing Capability,3,21,9.8e-05,0.1429,197.96,True
+prod_04718,Business-Focused Didactic Adapter,prod_01707,Business-Focused 24/7 Project,3,21,9.8e-05,0.1429,181.46,True
+prod_01231,Digitized Asymmetric Moderator,prod_03522,Persevering Web-Enabled Budgetary Management,3,21,9.8e-05,0.1429,73.82,True
+prod_03590,Horizontal Static Toolset,prod_02162,Reverse-Engineered Radical Knowledgebase,3,21,9.8e-05,0.1429,11.2,True
+prod_03439,Function-Based Optimal Artificial Intelligence,prod_00992,Multi-Layered Impactful Knowledgebase,4,29,0.000131,0.1379,110.66,True
+prod_00500,Digitized Eco-Centric Customer Loyalty,prod_02074,Expanded Discrete Customer Loyalty,3,22,9.8e-05,0.1364,415.72,True
+prod_01520,Object-Based Full-Range Solution,prod_02082,Re-Engineered Even-Keeled Matrix,3,22,9.8e-05,0.1364,377.93,True
+prod_04041,Devolved Holistic Methodology,prod_02200,Cross-Group Coherent Access,3,22,9.8e-05,0.1364,319.78,True
+prod_04041,Devolved Holistic Methodology,prod_02260,Progressive Systemic Methodology,3,22,9.8e-05,0.1364,259.82,True
+prod_00674,Cloned Neutral Moratorium,prod_02466,Assimilated Context-Sensitive Knowledgebase,3,22,9.8e-05,0.1364,244.54,True
+prod_01763,Reactive Foreground Structure,prod_02814,Cloned Needs-Based Project,3,22,9.8e-05,0.1364,244.54,True
+prod_00945,Ergonomic User-Facing Capability,prod_00161,Synchronized Homogeneous Graphical User Interface,3,22,9.8e-05,0.1364,197.96,True
+prod_01763,Reactive Foreground Structure,prod_01388,Inverse Human-Resource Flexibility,3,22,9.8e-05,0.1364,153.97,True
+prod_04041,Devolved Holistic Methodology,prod_03439,Function-Based Optimal Artificial Intelligence,3,22,9.8e-05,0.1364,143.35,True
+prod_04174,Ergonomic Transitional Circuit,prod_00568,Phased Content-Based Hub,3,22,9.8e-05,0.1364,134.1,True
+prod_00716,Synergized Impactful Framework,prod_01214,Streamlined Composite Application,4,30,0.000131,0.1333,254.05,True
+prod_00716,Synergized Impactful Framework,prod_01774,Triple-Buffered Intangible Service-Desk,4,30,0.000131,0.1333,193.56,True
+prod_00716,Synergized Impactful Framework,prod_02357,Monitored Radical Projection,4,30,0.000131,0.1333,52.11,True
+prod_03580,Centralized Holistic Firmware,prod_02695,Self-Enabling User-Facing Protocol,3,23,9.8e-05,0.1304,305.88,True
+prod_04438,Seamless Dedicated Array,prod_01695,Balanced Asymmetric Firmware,3,23,9.8e-05,0.1304,305.88,True
+prod_02246,Pre-Emptive Content-Based Open System,prod_04035,Profit-Focused Optimizing Strategy,3,23,9.8e-05,0.1304,265.1,True
+prod_04064,Up-Sized Maximized Function,prod_00443,Face-To-Face Interactive Open Architecture,3,23,9.8e-05,0.1304,248.53,True
+prod_04064,Up-Sized Maximized Function,prod_00819,Open-Source Solution-Oriented Leverage,3,23,9.8e-05,0.1304,220.91,True
+prod_04976,Total Regional Matrices,prod_00543,Configurable Fault-Tolerant Open Architecture,3,23,9.8e-05,0.1304,147.28,True
+prod_02043,Reactive Executive Success,prod_04647,Re-Contextualized 6Thgeneration Open System,3,23,9.8e-05,0.1304,128.27,True
+prod_02758,Automated 4Thgeneration Process Improvement,prod_03524,Seamless Zero Tolerance Benchmark,3,24,9.8e-05,0.125,476.34,True
+prod_03705,Sharable Empowering System Engine,prod_02146,Expanded Composite Infrastructure,3,24,9.8e-05,0.125,293.13,True
+prod_01000,Down-Sized Attitude-Oriented Methodology,prod_00942,Synchronized Next Generation Data-Warehouse,3,24,9.8e-05,0.125,238.17,True
+prod_01707,Business-Focused 24/7 Project,prod_04718,Business-Focused Didactic Adapter,3,24,9.8e-05,0.125,181.46,True
+prod_01707,Business-Focused 24/7 Project,prod_00783,Vision-Oriented Reciprocal Leverage,3,24,9.8e-05,0.125,146.57,True
+prod_04985,Virtual 24/7 Policy,prod_00557,Visionary Regional Capacity,3,24,9.8e-05,0.125,127.03,True
+prod_02237,Customer-Focused Clear-Thinking Matrix,prod_04613,Phased Value-Added Challenge,3,24,9.8e-05,0.125,108.88,True
+prod_01868,Digitized Exuding Service-Desk,prod_04373,Face-To-Face Context-Sensitive Archive,3,25,9.8e-05,0.12,228.64,True
+prod_00582,Operative Actuating Infrastructure,prod_03076,Multi-Layered Zero-Defect Matrix,3,25,9.8e-05,0.12,215.2,True
+prod_01868,Digitized Exuding Service-Desk,prod_01388,Inverse Human-Resource Flexibility,3,25,9.8e-05,0.12,135.49,True
+prod_03479,User-Centric Optimal Policy,prod_02029,Enhanced Scalable Methodology,3,25,9.8e-05,0.12,121.94,True
+prod_04436,Automated Even-Keeled Core,prod_03122,Enterprise-Wide Heuristic Implementation,3,25,9.8e-05,0.12,101.62,True
+prod_01868,Digitized Exuding Service-Desk,prod_01112,Synergistic Composite Support,3,25,9.8e-05,0.12,16.94,True
+prod_03479,User-Centric Optimal Policy,prod_00590,Triple-Buffered Methodical Knowledge User,3,25,9.8e-05,0.12,14.12,True
+prod_03976,Multi-Tiered Global Synergy,prod_02162,Reverse-Engineered Radical Knowledgebase,3,25,9.8e-05,0.12,9.4,True
+prod_03939,De-Engineered National Instruction Set,prod_04615,Innovative Methodical Installation,3,26,9.8e-05,0.1154,234.51,True
+prod_00783,Vision-Oriented Reciprocal Leverage,prod_04763,Team-Oriented Systemic Internet Solution,3,26,9.8e-05,0.1154,206.92,True
+prod_03472,Total Leadingedge Matrix,prod_03076,Multi-Layered Zero-Defect Matrix,3,26,9.8e-05,0.1154,206.92,True
+prod_00783,Vision-Oriented Reciprocal Leverage,prod_01707,Business-Focused 24/7 Project,3,26,9.8e-05,0.1154,146.57,True
+prod_00783,Vision-Oriented Reciprocal Leverage,prod_02029,Enhanced Scalable Methodology,3,26,9.8e-05,0.1154,117.25,True
+prod_02075,Fully-Configurable Regional Help-Desk,prod_02814,Cloned Needs-Based Project,4,35,0.000131,0.1143,204.95,True
+prod_02075,Fully-Configurable Regional Help-Desk,prod_01868,Digitized Exuding Service-Desk,4,35,0.000131,0.1143,139.36,True
+prod_04394,Open-Source Bottom-Line Matrix,prod_01214,Streamlined Composite Application,3,27,9.8e-05,0.1111,211.71,True
+prod_00358,Multi-Layered Systematic Synergy,prod_04530,Enhanced Hybrid Software,3,27,9.8e-05,0.1111,199.25,True
+prod_01134,Innovative Reciprocal Parallelism,prod_02180,Optional Hybrid Encryption,3,27,9.8e-05,0.1111,188.19,True
+prod_01388,Inverse Human-Resource Flexibility,prod_04819,Horizontal Empowering Contingency,3,27,9.8e-05,0.1111,188.19,True
+prod_04394,Open-Source Bottom-Line Matrix,prod_01311,Vision-Oriented Fault-Tolerant Graphic Interface,3,27,9.8e-05,0.1111,188.19,True
+prod_04394,Open-Source Bottom-Line Matrix,prod_00480,Multi-Channeled Asynchronous Infrastructure,3,27,9.8e-05,0.1111,169.37,True
+prod_01388,Inverse Human-Resource Flexibility,prod_01763,Reactive Foreground Structure,3,27,9.8e-05,0.1111,153.97,True
+prod_00543,Configurable Fault-Tolerant Open Architecture,prod_04976,Total Regional Matrices,3,27,9.8e-05,0.1111,147.28,True
+prod_01388,Inverse Human-Resource Flexibility,prod_01868,Digitized Exuding Service-Desk,3,27,9.8e-05,0.1111,135.49,True
+prod_00543,Configurable Fault-Tolerant Open Architecture,prod_04613,Phased Value-Added Challenge,3,27,9.8e-05,0.1111,96.78,True
+prod_01388,Inverse Human-Resource Flexibility,prod_02075,Fully-Configurable Regional Help-Desk,3,27,9.8e-05,0.1111,96.78,True
+prod_01388,Inverse Human-Resource Flexibility,prod_01112,Synergistic Composite Support,3,27,9.8e-05,0.1111,15.68,True
+prod_00543,Configurable Fault-Tolerant Open Architecture,prod_03285,Reactive Human-Resource Function,3,27,9.8e-05,0.1111,10.86,False
+prod_01402,Triple-Buffered Tangible Help-Desk,prod_02495,Secured Responsive Open Architecture,3,28,9.8e-05,0.1071,108.88,True
+prod_01279,User-Centric Stable Support,prod_01505,Persevering 24/7 Toolset,3,28,9.8e-05,0.1071,81.66,True
+prod_00992,Multi-Layered Impactful Knowledgebase,prod_03439,Function-Based Optimal Artificial Intelligence,4,38,0.000131,0.1053,110.66,True
+prod_03439,Function-Based Optimal Artificial Intelligence,prod_02260,Progressive Systemic Methodology,3,29,9.8e-05,0.1034,197.11,True
+prod_03439,Function-Based Optimal Artificial Intelligence,prod_01898,Stand-Alone Intermediate Focus Group,3,29,9.8e-05,0.1034,185.51,True
+prod_00851,Streamlined High-Level Solution,prod_02056,Versatile Global Time-Frame,3,29,9.8e-05,0.1034,165.99,True
+prod_03439,Function-Based Optimal Artificial Intelligence,prod_03855,Reduced Mobile Database,3,29,9.8e-05,0.1034,165.99,True
+prod_03439,Function-Based Optimal Artificial Intelligence,prod_04041,Devolved Holistic Methodology,3,29,9.8e-05,0.1034,143.35,True
+prod_03439,Function-Based Optimal Artificial Intelligence,prod_03934,Implemented Stable Moderator,3,29,9.8e-05,0.1034,24.83,False
+prod_00681,Proactive 4Thgeneration Hierarchy,prod_02162,Reverse-Engineered Radical Knowledgebase,3,29,9.8e-05,0.1034,8.11,False
+prod_03941,Networked Demand-Driven Capacity,prod_00005,Business-Focused Background Productivity,3,30,9.8e-05,0.1,217.76,True
+prod_00557,Visionary Regional Capacity,prod_04193,Re-Engineered Zero Administration Policy,3,30,9.8e-05,0.1,169.37,True
+prod_00716,Synergized Impactful Framework,prod_01311,Vision-Oriented Fault-Tolerant Graphic Interface,3,30,9.8e-05,0.1,169.37,True
+prod_03941,Networked Demand-Driven Capacity,prod_02619,Cloned Methodical Budgetary Management,3,30,9.8e-05,0.1,169.37,True
+prod_00716,Synergized Impactful Framework,prod_02565,Innovative Context-Sensitive Budgetary Management,3,30,9.8e-05,0.1,152.43,True
+prod_00557,Visionary Regional Capacity,prod_04985,Virtual 24/7 Policy,3,30,9.8e-05,0.1,127.03,True
+prod_02029,Enhanced Scalable Methodology,prod_03479,User-Centric Optimal Policy,3,30,9.8e-05,0.1,121.94,True
+prod_02029,Enhanced Scalable Methodology,prod_00783,Vision-Oriented Reciprocal Leverage,3,30,9.8e-05,0.1,117.25,True
+prod_02495,Secured Responsive Open Architecture,prod_01402,Triple-Buffered Tangible Help-Desk,3,30,9.8e-05,0.1,108.88,True
+prod_00557,Visionary Regional Capacity,prod_02162,Reverse-Engineered Radical Knowledgebase,3,30,9.8e-05,0.1,7.84,True
+prod_00188,Cross-Platform Content-Based Frame,prod_04434,Sharable Coherent Emulation,3,30,9.8e-05,0.1,4.71,False
+prod_00925,Progressive Foreground Standardization,prod_04434,Sharable Coherent Emulation,3,30,9.8e-05,0.1,4.71,False
+prod_00568,Phased Content-Based Hub,prod_02391,Ameliorated 6Thgeneration Encryption,3,31,9.8e-05,0.0968,184.39,True
+prod_04647,Re-Contextualized 6Thgeneration Open System,prod_03686,Profit-Focused Demand-Driven Toolset,3,31,9.8e-05,0.0968,184.39,True
+prod_00568,Phased Content-Based Hub,prod_04174,Ergonomic Transitional Circuit,3,31,9.8e-05,0.0968,134.1,True
+prod_04647,Re-Contextualized 6Thgeneration Open System,prod_02043,Reactive Executive Success,3,31,9.8e-05,0.0968,128.27,True
+prod_01643,Right-Sized Actuating Protocol,prod_02245,Implemented Needs-Based Standardization,3,32,9.8e-05,0.0938,219.85,True
+prod_03482,Pre-Emptive Multimedia Parallelism,prod_04512,Enhanced Eco-Centric Adapter,3,32,9.8e-05,0.0938,168.12,True
+prod_00083,Devolved Maximized Secured Line,prod_03582,Decentralized Actuating System Engine,3,33,9.8e-05,0.0909,251.95,True
+prod_00083,Devolved Maximized Secured Line,prod_01439,Organized 24/7 Firmware,3,33,9.8e-05,0.0909,230.95,True
+prod_02075,Fully-Configurable Regional Help-Desk,prod_00788,Multi-Tiered Foreground Conglomeration,3,35,9.8e-05,0.0857,163.32,True
+prod_02075,Fully-Configurable Regional Help-Desk,prod_04373,Face-To-Face Context-Sensitive Archive,3,35,9.8e-05,0.0857,163.32,True
+prod_04613,Phased Value-Added Challenge,prod_03172,Decentralized Human-Resource Knowledge User,3,35,9.8e-05,0.0857,145.17,True
+prod_04613,Phased Value-Added Challenge,prod_03903,User-Friendly Demand-Driven Leverage,3,35,9.8e-05,0.0857,137.53,True
+prod_04613,Phased Value-Added Challenge,prod_02237,Customer-Focused Clear-Thinking Matrix,3,35,9.8e-05,0.0857,108.88,True
+prod_02075,Fully-Configurable Regional Help-Desk,prod_01388,Inverse Human-Resource Flexibility,3,35,9.8e-05,0.0857,96.78,True
+prod_04613,Phased Value-Added Challenge,prod_00543,Configurable Fault-Tolerant Open Architecture,3,35,9.8e-05,0.0857,96.78,True
+prod_02075,Fully-Configurable Regional Help-Desk,prod_00369,Customizable Bandwidth-Monitored Encoding,3,35,9.8e-05,0.0857,40.83,True
+prod_04613,Phased Value-Added Challenge,prod_00590,Triple-Buffered Methodical Knowledge User,3,35,9.8e-05,0.0857,10.09,True
+prod_02075,Fully-Configurable Regional Help-Desk,prod_04434,Sharable Coherent Emulation,3,35,9.8e-05,0.0857,4.04,False
+prod_03610,De-Engineered Tertiary Migration,prod_03579,Profit-Focused Bifurcated Superstructure,3,36,9.8e-05,0.0833,169.37,True
+prod_03122,Enterprise-Wide Heuristic Implementation,prod_04436,Automated Even-Keeled Core,3,36,9.8e-05,0.0833,101.62,True
+prod_04717,Optional Methodical Data-Warehouse,prod_04323,Open-Source Asymmetric Groupware,3,37,9.8e-05,0.0811,224.71,True
+prod_04717,Optional Methodical Data-Warehouse,prod_01902,Vision-Oriented Fault-Tolerant Matrix,3,37,9.8e-05,0.0811,164.79,True
+prod_02358,Assimilated Zero Administration Function,prod_02162,Reverse-Engineered Radical Knowledgebase,3,37,9.8e-05,0.0811,6.35,False
+prod_00992,Multi-Layered Impactful Knowledgebase,prod_01631,Progressive Global Internet Solution,3,38,9.8e-05,0.0789,141.58,True
+prod_00992,Multi-Layered Impactful Knowledgebase,prod_00060,Optional Zero Tolerance Paradigm,3,38,9.8e-05,0.0789,33.9,True
+prod_01227,Customer-Focused Bi-Directional Functionalities,prod_03285,Reactive Human-Resource Function,3,38,9.8e-05,0.0789,7.71,False
+prod_01227,Customer-Focused Bi-Directional Functionalities,prod_04434,Sharable Coherent Emulation,3,38,9.8e-05,0.0789,3.72,True
+prod_02876,Customer-Focused User-Facing Application,prod_01471,Exclusive Bandwidth-Monitored Algorithm,4,51,0.000131,0.0784,183.93,True
+prod_00369,Customizable Bandwidth-Monitored Encoding,prod_04819,Horizontal Empowering Contingency,5,64,0.000164,0.0781,132.32,True
+prod_00369,Customizable Bandwidth-Monitored Encoding,prod_01388,Inverse Human-Resource Flexibility,5,64,0.000164,0.0781,88.21,True
+prod_01505,Persevering 24/7 Toolset,prod_01279,User-Centric Stable Support,3,40,9.8e-05,0.075,81.66,True
+prod_04782,Integrated Intangible Service-Desk,prod_04938,Multi-Lateral Human-Resource Knowledge User,3,41,9.8e-05,0.0732,123.93,True
+prod_04782,Integrated Intangible Service-Desk,prod_04434,Sharable Coherent Emulation,3,41,9.8e-05,0.0732,3.45,False
+prod_01622,Progressive Content-Based Adapter,prod_02694,Cross-Group Dynamic Leverage,3,43,9.8e-05,0.0698,36.05,True
+prod_03974,Compatible Scalable Solution,prod_02187,Future-Proofed Executive Projection,3,43,9.8e-05,0.0698,24.45,False
+prod_03522,Persevering Web-Enabled Budgetary Management,prod_04291,Profit-Focused Exuding Hierarchy,4,59,0.000131,0.0678,93.95,True
+prod_02357,Monitored Radical Projection,prod_04394,Open-Source Bottom-Line Matrix,5,78,0.000164,0.0641,72.38,True
+prod_03284,Synchronized Disintermediate Extranet,prod_04427,Fully-Configurable Even-Keeled Throughput,3,47,9.8e-05,0.0638,114.47,True
+prod_04507,Reactive Empowering Success,prod_01344,Distributed Bi-Directional Concept,4,66,0.000131,0.0606,80.33,True
+prod_02654,Re-Contextualized Systematic Framework,prod_01311,Vision-Oriented Fault-Tolerant Graphic Interface,3,50,9.8e-05,0.06,101.62,True
+prod_02654,Re-Contextualized Systematic Framework,prod_02780,Visionary Intermediate Data-Warehouse,3,50,9.8e-05,0.06,91.46,True
+prod_02876,Customer-Focused User-Facing Application,prod_00979,Centralized Regional Productivity,3,51,9.8e-05,0.0588,128.09,True
+prod_02876,Customer-Focused User-Facing Application,prod_03891,Function-Based Exuding Synergy,3,51,9.8e-05,0.0588,94.38,True
+prod_03430,Polarized Exuding Collaboration,prod_03499,Networked Intangible Service-Desk,3,56,9.8e-05,0.0536,136.1,True
+prod_02599,Business-Focused Bi-Directional Info-Mediaries,prod_00590,Triple-Buffered Methodical Knowledge User,4,75,0.000131,0.0533,6.28,False
+prod_02357,Monitored Radical Projection,prod_01214,Streamlined Composite Application,4,78,0.000131,0.0513,97.71,True
+prod_02357,Monitored Radical Projection,prod_00716,Synergized Impactful Framework,4,78,0.000131,0.0513,52.11,True
+prod_03522,Persevering Web-Enabled Budgetary Management,prod_01231,Digitized Asymmetric Moderator,3,59,9.8e-05,0.0508,73.82,True
+prod_02694,Cross-Group Dynamic Leverage,prod_01622,Progressive Content-Based Adapter,3,59,9.8e-05,0.0508,36.05,True
+prod_03522,Persevering Web-Enabled Budgetary Management,prod_02162,Reverse-Engineered Radical Knowledgebase,3,59,9.8e-05,0.0508,3.98,True
+prod_01946,Profound Secondary Focus Group,prod_04852,Down-Sized Demand-Driven Success,3,61,9.8e-05,0.0492,107.09,True
+prod_00556,Automated Stable Graphical User Interface,prod_04434,Sharable Coherent Emulation,3,62,9.8e-05,0.0484,2.28,False
+prod_00634,Networked Global Contingency,prod_01330,Balanced Discrete Model,4,85,0.000131,0.0471,110.36,True
+prod_00369,Customizable Bandwidth-Monitored Encoding,prod_01497,Extended Content-Based Capacity,3,64,9.8e-05,0.0469,71.45,True
+prod_00369,Customizable Bandwidth-Monitored Encoding,prod_00775,Progressive Responsive Success,3,64,9.8e-05,0.0469,71.45,True
+prod_00369,Customizable Bandwidth-Monitored Encoding,prod_02075,Fully-Configurable Regional Help-Desk,3,64,9.8e-05,0.0469,40.83,True
+prod_00369,Customizable Bandwidth-Monitored Encoding,prod_01112,Synergistic Composite Support,3,64,9.8e-05,0.0469,6.62,True
+prod_00369,Customizable Bandwidth-Monitored Encoding,prod_04434,Sharable Coherent Emulation,3,64,9.8e-05,0.0469,2.21,False
+prod_04507,Reactive Empowering Success,prod_00000,Reactive Coherent Flexibility,3,66,9.8e-05,0.0455,173.22,True
+prod_00410,Pre-Emptive Transitional Intranet,prod_00926,Operative Incremental Collaboration,3,66,9.8e-05,0.0455,115.48,False
+prod_00361,Customer-Focused Systematic Emulation,prod_04081,Persevering Executive Implementation,3,67,9.8e-05,0.0448,12.52,False

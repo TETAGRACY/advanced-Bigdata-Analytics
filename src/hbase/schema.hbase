@@ -1,0 +1,44 @@
+# =====================================================================================
+# HBase schema for the e-commerce clickstream (wide-column model)
+# Run:  docker exec -i ecom-hbase hbase shell -n < src/hbase/schema.hbase
+# =====================================================================================
+
+# Drop old versions (idempotent re-runs)
+disable 'user_sessions' rescue nil
+drop    'user_sessions' rescue nil
+disable 'product_metrics' rescue nil
+drop    'product_metrics' rescue nil
+
+# -------------------------------------------------------------------------------------
+# 1) user_sessions  - time-series browsing activity per user
+#    Row key : <user_id>#<reverse_ts>#<session_id>
+#              e.g. user_000042#8257083641#sess_a7b3c9d8e2
+#              reverse_ts = 9999999999 - start_epoch_seconds -> newest session sorts FIRST,
+#              so "last N sessions of user X" = prefix scan with LIMIT N (no sorting needed).
+#              session_id suffix guarantees uniqueness if two sessions start in the same second.
+#    CF 's'  : session summary (small, read by every query)  -> in-memory, row bloom filter
+#    CF 'pv' : page-view events, one column per event: qualifier = 3-digit sequence ('000'..)
+#              value = ts|page_type|product_id|category_id|view_duration   (sparse, variable width)
+#    CF 'c'  : cart contents, qualifier = product_id, value = quantity|unit_price  (sparse)
+#    Pre-split on user_id ranges so writes/reads spread across region servers.
+# -------------------------------------------------------------------------------------
+create 'user_sessions',
+  {NAME => 's',  VERSIONS => 1, BLOOMFILTER => 'ROW', IN_MEMORY => 'true', COMPRESSION => 'GZ'},
+  {NAME => 'pv', VERSIONS => 1, BLOOMFILTER => 'ROW', COMPRESSION => 'GZ', TTL => 31536000},
+  {NAME => 'c',  VERSIONS => 1, BLOOMFILTER => 'ROW', COMPRESSION => 'GZ'},
+  SPLITS => ['user_002000', 'user_004000', 'user_006000', 'user_008000']
+
+# -------------------------------------------------------------------------------------
+# 2) product_metrics - daily product performance counters
+#    Row key : <product_id>#<yyyymmdd>    e.g. prod_00123#20250312
+#              all days of one product are contiguous -> date-range scan per product.
+#    CF 'm'  : views, unique_sessions, cart_adds, purchases, units, revenue
+#              (counters; in a live system these are updated with atomic INCREMENT)
+# -------------------------------------------------------------------------------------
+create 'product_metrics',
+  {NAME => 'm', VERSIONS => 1, BLOOMFILTER => 'ROW', COMPRESSION => 'GZ'},
+  SPLITS => ['prod_01000', 'prod_02000', 'prod_03000', 'prod_04000']
+
+describe 'user_sessions'
+describe 'product_metrics'
+list

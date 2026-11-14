@@ -1,0 +1,41 @@
+# Multi-model analytics stack: MongoDB (document) + HBase (wide-column) + Spark (processing)
+#
+# MongoDB: by default the stack uses a MongoDB server already running on the host
+#          (mongodb://host.docker.internal:27017). To run MongoDB in Docker instead:
+#             docker compose --profile docker-mongo up -d
+#          and set MONGO_URI=mongodb://mongo:27017 for the spark service.
+services:
+  mongo:
+    image: mongo:7.0
+    container_name: ecom-mongo
+    profiles: ["docker-mongo"]
+    ports: ["27017:27017"]
+    volumes: [mongo-data:/data/db]
+
+  hbase:
+    image: harisekhon/hbase:latest       # standalone HBase + ZooKeeper + Thrift server
+    container_name: ecom-hbase
+    hostname: hbase
+    ports:
+      - "16011:16010"   # HBase Master web UI   -> http://localhost:16011
+      - "9091:9090"     # Thrift API for host-side Python (happybase) -> localhost:9091
+
+  spark:
+    build: .
+    container_name: ecom-spark
+    depends_on: [hbase]
+    environment:
+      MONGO_URI: ${MONGO_URI:-mongodb://host.docker.internal:27017}
+      MONGO_DB: ecommerce
+      HBASE_HOST: hbase
+      HBASE_PORT: "9090"
+      DATA_DIR: /project/data
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    ports: ["4040:4040"]   # Spark UI while a job runs
+    volumes: [".:/project"]
+    deploy:
+      resources:
+        limits: {memory: 8g}
+
+volumes:
+  mongo-data:

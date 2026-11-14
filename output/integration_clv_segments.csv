@@ -1,0 +1,5 @@
+segment,cluster,users,avg_clv_3y,total_clv_3y,avg_recency_days,avg_orders,avg_spent,avg_sessions,avg_session_min,session_conv_pct,avg_abandoned_carts,clv_share_pct
+Champions,1,87,15256.27,1327295.41,3.1,34.63,5970.85,90.2,17.3,43.3,15.03,12.2
+Growing regulars,3,907,4364.64,3958727.97,8.7,10.8,1608.19,54.0,17.1,31.8,10.99,36.5
+Browsers / low value,0,6133,878.77,5389517.99,23.2,2.75,331.03,17.5,16.0,17.4,3.7,49.7
+At-risk / dormant,2,2873,58.68,168573.57,107.4,0.28,28.59,12.4,14.3,2.1,2.69,1.6

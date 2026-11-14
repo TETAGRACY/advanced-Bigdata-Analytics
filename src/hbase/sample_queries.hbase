@@ -1,0 +1,20 @@
+# Sample HBase shell queries (run: docker exec -i ecom-hbase hbase shell -n < src/hbase/sample_queries.hbase)
+
+# 1. All sessions of one user, newest first (prefix scan on the row key)
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', COLUMNS => ['s'], LIMIT => 5}
+
+# 2. Only the 3 most recent sessions (reverse timestamp => first rows are newest)
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', COLUMNS => ['s:start_time','s:conversion_status','s:device_type'], LIMIT => 3}
+
+# 3. Time-range scan: sessions of user_000042 between 2025-03-01 and 2025-03-31
+#    STARTROW = user#rev(2025-04-01 00:00:00) = 9999999999-1743465600 = 8256534399
+#    STOPROW  = user#rev(2025-03-01 00:00:00) = 9999999999-1740787200 = 8259212799
+scan 'user_sessions', {STARTROW => 'user_000042#8256534399', STOPROW => 'user_000042#8259212799', COLUMNS => ['s:start_time','s:conversion_status']}
+
+# 4. Product daily performance for one product over March 2025
+scan 'product_metrics', {STARTROW => 'prod_00010#20250301', STOPROW => 'prod_00010#20250401'}
+
+# 5. Converted sessions only (server-side filter on a column value)
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042#', COLUMNS => ['s:conversion_status'], FILTER => "SingleColumnValueFilter('s','conversion_status',=,'binary:converted')"}
+
+count 'user_sessions', INTERVAL => 100000
